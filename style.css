@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: 'Inter', sans-serif;
+}
+.navbar{
+    height: 55px;
+    background: #F55A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar h3{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter';
+font-weight: 500;
+font-size: 14.4608px;
+line-height: 18px;
+letter-spacing: -0.075em;
+}
+
+.logo{
+    padding-right: 7px;
+    width: 24px;
+}
+
+.card {
+    margin-top: 36px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card--imageDiv{
+    width: 126px;
+    height: 168px;
+    margin-right: 19px;
+}
+.image{
+    width: 126px;
+    height: 168px;
+    object-fit: cover;
+     border-radius: 5px;
+}
+.card--location{
+    text-align: center;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+}
+.card--locationLogo{
+    margin-right: 4px;
+}
+
+.googleMapLink{
+    margin-left: 12px;
+    font-size: 10.24px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.Location--Heading{
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    color: #2B283A;
+}
+
+.card--dates{
+    margin-top: 14px;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+}
+
+.card--description{
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A;
+    margin-top: 9px;
+    width: 326px;
+}
